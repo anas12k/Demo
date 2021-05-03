@@ -137,8 +137,9 @@ a:hover{
   } */
   @media  screen and (max-width:500px){
       iframe{
-          width:150px;
+        width:140px;
           height: 100px;
+          margin-bottom: 10px;
           
       }
   }
