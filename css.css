@@ -137,7 +137,7 @@ a:hover{
   } */
   @media  screen and (max-width:500px){
       iframe{
-          width:180px;
+          width:150px;
           height: 100px;
           
       }
