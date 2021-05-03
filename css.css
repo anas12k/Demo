@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    font-size: 80px;
+    padding: 170px;
+    color: aliceblue;
+    background-color: rgb(5, 5,5);
+    background-image: url('gif.gif');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: top center;
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    text-decoration: none;
+    /* padding: 10px; */
+    align-items: center;
+    background-color: rgba(43, 42, 42, 0.774);
+}
+a{
+
+    /* margin-top: 7px; */
+    padding:15px;
+    margin-right: 12px;
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+}
+.container{
+    /* background-color: rgb(241, 237, 232); */
+    padding: 30px;
+}
+.dabba,.head{
+    font-weight: 900;
+    font-size: 30px;
+    height: 80px;
+    width: 160px;
+    margin-top: 5px;
+    margin-left: 46%;
+   text-align: center;
+   /* margin-top: 50px;  */
+    margin-bottom: 5px;
+    padding: 18px 20px;
+    border-radius: 20px;
+    color: rgb(7, 7, 7);
+    background: linear-gradient(to right, #f5d837, #bbb812);
+    background-position:center;
+    text-transform: uppercase;
+
+   
+
+}
+.para{
+    margin-top: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-right: 5px;
+}
+.img{
+    border-radius: 999px;
+    margin-top: 10px;
+    width:500px;
+    margin-left: 34%;
+
+}
+   #search{
+       padding: 10px;
+  margin-left: auto;
+    border-radius: 99px;
+    font-size: 17px;
+    text-align: justify;
+     outline: none;
+    background-image: url('searchicon.png');
+    background-size:20px ;
+    background-repeat: no-repeat;
+    background-position:right ;
+}
+.video{
+    padding: 30px;
+    background-color: rgb(228, 230, 229);
+}
+iframe{
+    margin-right: 30px;
+}
+footer{
+    background-color: rgb(241, 237, 232);
+}
+#search:hover{
+    width: 200px;
+}
+
+    #search{
+    width: 100px;
+    transition: width 1s ;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    
+    background-color: rgb(10, 10, 10);
+    color: rgba(223, 41, 41, 0.63);
+}
+@media screen and (max-width:500px){
+    nav{
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+}
+
+.carousel {
+    background: #EEE;
+  }
+  
+  .carousel-cell {
+    width: 50%;
+    height: 200px;
+    margin-right: 20px;
+    /* background: #8C8; */
+    border-radius: 5px;
+    /* counter-increment: gallery-cell; */
+  }
+  
+  /* cell number */
+  /* .carousel-cell::before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  } */
+  @media  screen and (max-width:500px){
+      iframe{
+          width:180px;
+          height: 100px;
+          
+      }
+  }
+  @media  screen and (max-width:600px){
+    .img{
+        width:100px
+    }
+}
