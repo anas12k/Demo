@@ -5,7 +5,7 @@
 
 header{
     font-size: 80px;
-    padding: 170px;
+    padding: 120px;
     color: aliceblue;
     background-color: rgb(5, 5,5);
     background-image: url('gif.gif');
@@ -107,6 +107,15 @@ a:hover{
     color: rgba(223, 41, 41, 0.63);
 }
 @media screen and (max-width:500px){
+    .dabba,.head{
+        margin-left: 38%;
+
+    }
+    .carousel-cell{
+        width: 100%;
+        margin-right: 10px;
+    
+    }
     nav{
         flex-direction: column;
         padding: 10px 0px;
@@ -119,7 +128,7 @@ a:hover{
   
   .carousel-cell {
     width: 50%;
-    height: 200px;
+    height: 350px;
     margin-right: 20px;
     /* background: #8C8; */
     border-radius: 5px;
@@ -137,14 +146,15 @@ a:hover{
   } */
   @media  screen and (max-width:500px){
       iframe{
-        width:140px;
-          height: 100px;
+          width:400px;
+          height: 200px;
           margin-bottom: 10px;
           
       }
   }
   @media  screen and (max-width:600px){
     .img{
+        margin-left: 40%;
         width:100px
     }
 }
