@@ -107,7 +107,7 @@ a:hover{
     background-color: rgb(10, 10, 10);
     color: rgba(223, 41, 41, 0.63);
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:450px){
     .dabba,.head{
         margin-left: 38%;
 
