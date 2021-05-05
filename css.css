@@ -84,8 +84,9 @@ a{
     padding: 30px;
     background-color: rgb(228, 230, 229);
 }
-iframe{
-    margin-right: 30px;
+iframe{ 
+    margin-left: 50px;
+    margin-bottom: 10px;
 }
 footer{
     background-color: rgb(241, 237, 232);
