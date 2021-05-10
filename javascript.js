@@ -11,7 +11,7 @@ function getTime(){
     second=checkTime(second);
     document.getElementById('txt').innerHTML=hours+":"+minutes+":"+second;
     getTimeOut(function(){
-        getTime()},10000
+        getTime()},1000
     );
 }
 function checkTime(i){
