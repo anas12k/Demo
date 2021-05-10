@@ -159,3 +159,13 @@ a:hover{
         width:100px
     }
 }
+#txt{
+    padding: auto;
+    text-align: center;
+    /* margin-top: 50px; */
+    border: 2px solid black;
+}
+#time{
+    text-align: center;
+    padding: 10px;
+}
